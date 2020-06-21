@@ -1,4 +1,4 @@
-#BPF-Playground
+# BPF-Playground
 
 Playground for using when we need `develop/play` on macOS.
 
@@ -12,7 +12,7 @@ Setup the vagrant session (this will take a while).
 make setup
 ```
 
-Once vagrant session is up, you can verify your install using the the following script:
+Once vagrant session is up, you can verify your install using the following script:
 
 ```sh
 vagrant ssh
@@ -20,7 +20,7 @@ sudo /usr/share/bcc/tools/biolatency
 ```
 
 ```
-usecs               : count     distribution
+     usecs               : count     distribution
          0 -> 1          : 0        |                                        |
          2 -> 3          : 0        |                                        |
          4 -> 7          : 0        |                                        |
